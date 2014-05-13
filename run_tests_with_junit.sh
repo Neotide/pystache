@@ -2,5 +2,5 @@
 set -e 
 
 . ~/.virtualenvs/python2.7/bin/activate
-echo Scalable2014 | sudo pip install --quiet xmlrunner
+
 ./test.py
